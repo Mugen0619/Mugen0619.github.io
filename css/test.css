@@ -1,0 +1,98 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+header {
+  background: #0078d7;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-align: left;
+}
+nav {
+  margin: 1rem 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav a.active {
+  font-weight: bold;
+}
+nav a.active:hover {
+  text-decoration: none;
+}
+nav a:visited {
+  color: #fff;
+}
+li{
+  list-style: none;
+  margin: 0.5rem 0;
+  display: inline-block;
+  display: inline;
+}
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+  color: #8fd700;
+}
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
+/* /画像を丸く80px程度の大きさで名前の横に */
+img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+
+}
+/* pの隣に画像を表示する */
+p img {
+  float: left;
+  margin-right: 1rem;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  /* overflow: hidden; */
+
+  }
+
+  .slider .slide {
+  /* position: absolute; */
+  display: none;
+  font-size: 1.5em;
+  width: 100%;
+  }
+
+  .slider .slide:first-child {
+  display: block;
+  }
